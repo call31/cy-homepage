@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body,figcaption,figure,form,fieldset{
+	margin: 0;
+	padding: 0;
+}
+
+
+#header {
+	width: 100%;
+	min-width:1263px;
+	height: 300px;
+	background: #f8f6d6;
+}
+#header .home a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #ccc;
+	font-size: 16px;
+	padding-left: 8px;
+}
+#header .avartar img{
+	height: 10%;
+	width: 10%;
+	padding-left:45%;
+}
+#header .avartar figcaption{
+	font-size: 35px;
+	text-align: center;
+}
+#header .avartar div{
+	font-size: 16px;
+	text-align: center;
+	color: #cdc2c2;
+}
+#header .github{
+	float: left;
+	padding: 0 1% 0 42%;
+}
+#header .weibo{
+	float: left;
+	padding: 0 1% 0 1%;
+}
+#header .zhihu{
+	float: left;
+	padding: 0.12% 1% 0 ;
+}
+#sidebar {
+	width: 28%;
+	border-radius: 10px;
+	float: right;
+	line-height: 2;
+	text-align: center;
+	font-size: 30px;
+	padding-top:.3%;
+	position: absolute;
+	right: 0;
+	position: fixed;
+}
+#sidebar .button{
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+	
+#sidebar a{
+	color: #527e70;
+	font-weight: 700;
+	text-decoration: none;
+}
+#blog {
+	/*width: 70%;*/
+	background: #eee;
+	border: 2px solid  ;
+	border-radius: 10px;
+	float: left;
+}
+#blog .record{
+	font-size: 50px;
+	padding-left: 30px;
+}
+#blog .achievement{
+	font-size: 30px;
+	padding-left: 20px;
+}
+#blog .achievement span{
+	font-size: 15px;
+	padding-left: 20px;
+}
+#blog .pic1-cy , #blog .pic2-cy{
+	font-size: 18px;
+	padding-left: 20px;
+	color: #414645;
+	padding-bottom: 100px;
+}
+#blog .more {
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px auto;
+	border:1px solid #ccc;
+	background: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #666;
+}
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#footer {
+	color: #777;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1%;
+
+}
+
+
