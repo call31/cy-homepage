@@ -38,33 +38,11 @@ body {
 	text-align: center;
 	color: #cdc2c2;
 }
-<<<<<<< HEAD
-=======
 
-
-/*布局有三种模型，去幕课 http://www.imooc.com/learn/9看看基础，特别是盒模型和布局模型还有最后面有居中的 
-几个就技巧===================*/
->>>>>>> origin/master
-/*#header .github{
-	float: left;
-	padding: 0 1% 0 42%;
-}
-#header .weibo{
-	float: left;
-	padding: 0 1% 0 1%;
-}
-#header .zhihu{
-	float: left;
-	padding: 0.12% 1% 0 ;
-}*/
 .logo figure{
 	display: inline-block;
 }
-<<<<<<< HEAD
-.logo {
-=======
 .logo{
->>>>>>> origin/master
 	text-align: center;
 }
 
