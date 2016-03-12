@@ -1,15 +1,20 @@
 @charset "utf-8";
 
-body,figcaption,figure,form,fieldset{
+body,figcaption,figure{
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	background:-moz-linear-gradient(top,#f8f6d6,#e2e3db);
+	background:-webkit-gradient(linear, 0% 50%, 10% 100%,from(#f8f6d6), to(#e2e3db));
 }
 
 
 #header {
 	width: 100%;
 	min-width:1263px;
-	height: 300px;
+	height: 70%;
 	background: #f8f6d6;
 }
 #header .home a{
@@ -33,7 +38,7 @@ body,figcaption,figure,form,fieldset{
 	text-align: center;
 	color: #cdc2c2;
 }
-#header .github{
+/*#header .github{
 	float: left;
 	padding: 0 1% 0 42%;
 }
@@ -44,6 +49,12 @@ body,figcaption,figure,form,fieldset{
 #header .zhihu{
 	float: left;
 	padding: 0.12% 1% 0 ;
+}*/
+.logo figure{
+	display: inline-block;
+}
+.logo {
+	text-align: center;
 }
 #sidebar {
 	width: 28%;
